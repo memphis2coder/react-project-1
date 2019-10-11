@@ -18,7 +18,7 @@
 .toolbar__logo a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .spacer {
@@ -44,4 +44,16 @@
 .toolbar__navigation-items a:hover,
 .toolbar__navigation-items a:active {
   color: #f4f4f4;
+}
+
+@media (max-width: 768px) {
+  .toolbar__navigation-items {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .toolbar__toggle-button {
+    display: none;
+  }
 }
